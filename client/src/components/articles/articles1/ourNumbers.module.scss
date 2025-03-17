@@ -1,0 +1,38 @@
+@use "../../../globals/global.scss" as u;
+.article {
+  text-align: center;
+  margin-top: 2.5rem;
+  background-color: white;
+  width: 100%;
+  img {
+    width: 90%;
+  }
+
+  .community {
+    margin: 3.125rem 0;
+    width: 100%;
+
+    .community_content {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      margin-inline: auto;
+
+      h1 {
+        font-size: 3.5rem;
+        color: u.$very-dark-cyan;
+      }
+
+      p {
+        font-size: 1rem;
+        color: gray;
+        font-weight: 500;
+    
+      }
+    }
+  }
+
+ 
+}
+
+

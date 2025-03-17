@@ -1,0 +1,29 @@
+@use "../../globals/global.scss" as u;
+
+header{
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 2.188rem;
+  color: u.$very-dark-cyan;
+  h1 {
+    text-align: center;
+   
+  
+  }
+
+  p {
+    text-align: center;
+  }
+
+  button {
+    margin-top: 1.25rem;
+    border: 1px solid u.$light-pink;
+    background: u.$pink;
+    padding: 0.675rem 1.55rem;
+    border-radius: 20px;
+    color: u.$very-pale-blue;
+  }
+}

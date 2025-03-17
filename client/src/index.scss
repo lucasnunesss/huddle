@@ -1,0 +1,51 @@
+@use "./globals/mixins.scss" as u;
+@use "./globals/breakpoints.scss" as y;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  @include u.sans();
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+
+
+h1, h2, h3, h4, h5 {
+  @include u.poppins();
+}
+
+
+// body{
+
+//   background-color: white;
+//   @include y.breakpoint(small){
+//       background-color: rgba(255, 176, 176, 0.342);
+//   }
+
+//   @include y.breakpoint(medium){
+//     background-color: rgba(167, 255, 214, 0.342);
+//   }
+
+//   @include y.breakpoint(large){
+//     background-color: rgba(50, 59, 109, 0.342);
+//   }
+
+//   @include y.breakpoint(xlarge){
+//     background-color: rgba(0, 0, 0, 0.342);
+//   }
+
+
+// }
+

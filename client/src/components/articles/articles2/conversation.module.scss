@@ -1,0 +1,40 @@
+@use "../../../globals/global.scss" as u;
+.bg_divider {
+    width: 100%;
+  
+
+    img {
+      width: 100%;
+      
+
+    }
+    .divider {
+      margin-top: -0.625rem;
+      &.second_option{
+        background-color: transparent;
+
+      }
+      background-color: #f6fbff;
+ 
+  
+    }
+
+
+    .conversation_grow{
+        width: 80%;
+        margin-top: 1.25rem;
+    }
+
+    .grow_text {
+        padding: 1.45rem;
+        color: u.$very-dark-cyan;
+
+        h2 {
+            margin-top: 1.563rem;
+        }
+
+    }
+   
+
+
+  }
