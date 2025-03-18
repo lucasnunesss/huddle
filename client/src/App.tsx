@@ -1,6 +1,7 @@
 import AllArticles from "./components/articles/AllArticles";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
+import Section from "./components/section/Section";
 import "./index.scss";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <main>
         <AllArticles />
+        <Section />
       </main>
     </div>
   );

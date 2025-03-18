@@ -7,7 +7,7 @@ import Conversation from "../articles2/Conversation";
 
 const OurNumbers = () => {
   return (
-    <article className={styles.article}>
+    <article className={styles.our_numbers}>
       <img src={Screen} alt="" />
       <div className={styles.community}>
         <div className={styles.community_content}>

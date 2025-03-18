@@ -8,7 +8,7 @@ import illustration_users from "/illustration_users.svg"
 const Conversation = () => {
   return (
     <>
-      <div className={styles.bg_divider}>
+      <article className={styles.bg_divider}>
         <img src={BgTop} alt="" />
         <div className={styles.divider}>
           <img src={Grow} alt="" className={styles.conversation_grow} />
@@ -21,8 +21,8 @@ const Conversation = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className={styles.bg_divider}>
+      </article>
+      <article className={styles.bg_divider}>
       <img src={BgTop3} alt=""  />
         
         <div className={`${styles.divider} ${styles.second_option}`}>
@@ -35,9 +35,9 @@ const Conversation = () => {
             </p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div className={styles.bg_divider}>
+      <article className={styles.bg_divider}>
       <img src={BgTop2} alt="" />
         
         <div className={`${styles.divider}`}>
@@ -50,7 +50,7 @@ const Conversation = () => {
             </p>
           </div>
         </div>
-      </div>
+      </article>
       
       
     </>

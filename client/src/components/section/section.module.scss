@@ -1,0 +1,29 @@
+@use "../../globals/global.scss" as u;
+.section_community{
+  width: 100%;
+  
+
+  img {
+    width: 100%;
+  }
+
+  div {
+    padding: 1.25rem;
+    text-align: center;
+    margin: 1.25rem;
+  }
+
+  h1 {
+    margin-bottom: 1.25rem;
+    color: u.$very-dark-cyan;
+    font-size: 1.6rem;
+  }
+
+  button {
+      border: none;
+      background-color: u.$pink;
+      padding: 0.625rem 2.188rem;
+      color: u.$very-pale-blue;
+      border-radius: 20px;
+  };
+}
