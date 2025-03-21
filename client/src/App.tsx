@@ -1,4 +1,5 @@
 import AllArticles from "./components/articles/AllArticles";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Navbar from "./components/navbar/Navbar";
 import Section from "./components/section/Section";
@@ -13,6 +14,8 @@ function App() {
         <AllArticles />
         <Section />
       </main>
+
+      <Footer />
     </div>
   );
 }
